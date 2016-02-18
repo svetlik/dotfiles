@@ -3,8 +3,8 @@ alias realias='source ~/.bash/aliases.bash'
 alias aliases='subl ~/.bash/aliases.bash && realias'
 
 # some more ls aliases
-alias ls='ls -GF'
-alias ll='ls -lh'
+alias ls='ls -GFh'
+alias ll='ls -lah'
 alias la='ll -A'
 alias l='ls -1'
 
@@ -20,6 +20,9 @@ alias gl='git show --oneline'
 # rails
 alias b='bundle exec'
 alias sp='bundle exec rspec'
+
+# the_silver_searcher
+alias ag='ag -A 1 -B 2 --stats'
 
 # dir size
 alias dirsize='du -c -h'
